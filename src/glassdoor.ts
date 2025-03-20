@@ -5,9 +5,9 @@
 import { generateCacheKey, getCacheValue, setCacheValue, generateCompanyCacheKey, generateJobCacheKey } from './cache';
 
 // Check and provide fallbacks for environment variables
-const baseUrl = process.env.GLASSDOOR_BASE_URL;
-const graphUrl = process.env.GLASSDOOR_GRAPH_URL;
-const graphUrlHeaders = JSON.parse(process.env.GLASSDOOR_GRAPH_URL_HEADERS as string);
+const baseUrl = "test"; // process.env.GLASSDOOR_BASE_URL;
+const graphUrl = "test"; // process.env.GLASSDOOR_GRAPH_URL;
+const graphUrlHeaders = "test"; // JSON.parse(process.env.GLASSDOOR_GRAPH_URL_HEADERS as string);
 
 /**
  * Fetches companies from Glassdoor based on company name
