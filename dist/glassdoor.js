@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getSalaryInfo = exports.formatSalary = exports.formatName = exports.fetchSalaries = exports.fetchJobTitles = exports.fetchGlassdoorCompanies = void 0;
 const cache_1 = require("./cache");
 // Check and provide fallbacks for environment variables
-const baseUrl = process.env.GLASSDOOR_BASE_URL;
-const graphUrl = process.env.GLASSDOOR_GRAPH_URL;
-const graphUrlHeaders = JSON.parse(process.env.GLASSDOOR_GRAPH_URL_HEADERS);
+const baseUrl = "test"; // process.env.GLASSDOOR_BASE_URL;
+const graphUrl = "test"; // process.env.GLASSDOOR_GRAPH_URL;
+const graphUrlHeaders = {}; // JSON.parse(process.env.GLASSDOOR_GRAPH_URL_HEADERS as string);
 /**
  * Fetches companies from Glassdoor based on company name
  * @param companyName Name of the company to search for
