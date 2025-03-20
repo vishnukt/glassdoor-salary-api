@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "start": "npm run build && functions-framework --target=findGlassdoorSalary --source=dist",
+    "start": "functions-framework --target=findGlassdoorSalary --source=dist",
     "dev": "ts-node server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
